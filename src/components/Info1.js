@@ -6,7 +6,7 @@ export default function Info1(props) {
   return (
     <div className="Info">
       <div className="Img-box">
-        <img src="img/earth.png" alt="" />
+        <img src="img/earth2.png" alt="" />
       </div>
       <div className="Info-contents">
         <h1>주머니 속 명함 한 장으로 세상을 구하세요. </h1>

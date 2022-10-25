@@ -116,7 +116,7 @@ export default function CustomizedAccordions() {
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-            기업 관련 제품이나 문의 사항은 ???로 연락 부탁드립니다.
+            기업 관련 제품이나 문의 사항은 admin@nvrkr.com 로 연락 부탁드립니다.
           </Typography>
         </AccordionDetails>
       </Accordion>

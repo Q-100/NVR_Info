@@ -5,7 +5,7 @@ export default function Info5(props) {
   return (
     <div className="Info Info-reverse">
       <div className="Img-box">
-        <img src="img/box.png" alt="" />
+        <img src="img/NFCImg.png" alt="" />
       </div>
       <div className="Info-contents">
         <p className="Sub-title">NFC 활용</p>
