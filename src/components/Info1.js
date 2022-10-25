@@ -17,8 +17,8 @@ export default function Info1(props) {
           경험하세요.
         </p>
         <a href="">
-          <button className="button button-join">
-            <span>무료 NFC명함받기</span>
+          <button className="button-nvr button-join">
+            <span>무료로 NFC 명함 받기</span>
           </button>
         </a>
       </div>

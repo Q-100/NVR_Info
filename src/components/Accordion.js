@@ -87,15 +87,21 @@ export default function CustomizedAccordions() {
         onChange={handleChange("panel2")}
       >
         <AccordionSummary aria-controls="panel2d-content" id="panel2d-header">
-          <Typography>무료로 명함을 받기 위해선 어떻게 해야하나요?</Typography>
+          <Typography>
+            무료로 재활용 NFC 명함을 받기 위해선 어떻게 해야하나요?
+          </Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-            현재 저희 NVR에서는 무료로 재활용 플라스틱 명함을 제공하고있습니다.{" "}
-            <br />
-            상단의 등록하기 버튼 또는 하단으로 스크롤하여 가입하게 되면 입력하신
-            주소로 배송해드립니다. <br />이 재활용 플라스틱 명함은 NFC기능이
-            탑재된 명함으로 ????
+            <p>
+              현재 저희 NVR에서는 무료로 재활용 플라스틱 명함을 제공하고
+              있습니다. <br />
+              상단의 등록하기 버튼을 이용하여 가입 시 입력하신 주소로
+              배송해드립니다. <br />
+              <br />* 가입 시 입력한 정보로 명함이 제작되오니 오타 없이 입력
+              바랍니다. <br />* 재활용 NFC 카드를 직접 제작하기 때문에 색상은
+              랜덤 배송이니 이 점 양해 부탁드립니다.
+            </p>
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -110,7 +116,7 @@ export default function CustomizedAccordions() {
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-            기업관련 제품이나 문의사항은 ???로 연락 부탁드립니다.
+            기업 관련 제품이나 문의 사항은 ???로 연락 부탁드립니다.
           </Typography>
         </AccordionDetails>
       </Accordion>

@@ -1,8 +1,7 @@
 import React, { useState } from "react";
-
-export default function Info2(props) {
-  const title = props.title;
-  const content = props.content;
+import RecycleCard from "./RecycleCard";
+export default function Info2() {
+  const [visible, setVisible] = useState(false);
   return (
     <div className="Info">
       <div className="Info-contents">
@@ -13,10 +12,19 @@ export default function Info2(props) {
           불가능합니다. 병뚜껑을 재활용하여 만든 명함을 사용함으로써 지구
           환경에도 도움을 줄 수 있습니다.
         </p>
-        <a href="">
-          재활용 명함 자세히 보기{" "}
-          <img src="img/Arrow 3.png" alt="" className="Arrow" />
+        <a
+          onClick={() => {
+            setVisible(!visible);
+          }}
+        >
+          재활용 명함 제작 과정{" "}
+          {visible ? (
+            <img src="img/Arrow 3.png" alt="" className="Arrow-rotate-up" />
+          ) : (
+            <img src="img/Arrow 3.png" alt="" className="Arrow" />
+          )}
         </a>
+        {visible && <RecycleCard />}
       </div>
       <div className="Img-box">
         <img src="img/recycle img1.jpeg" alt="" />

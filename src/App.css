@@ -7,12 +7,12 @@
 .NVRHeader img{
   width: 200px;
 }
-.MainContainer{
+.MainContainer-nvr{
   display: flex;
   flex-direction: column;
   padding: 0 15px;
 }
-.button {
+.button-nvr {
 	pointer-events: auto;
 	cursor: pointer;
 	background: #e7e7e7;
@@ -24,8 +24,8 @@
 	position: relative;
 	display: inline-block;
 }
-.button::before,
-.button::after {
+.button-nvr::before,
+.button-nvr::after {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -75,7 +75,7 @@
   font-weight:600;
   margin-bottom: 50px;
 }
-h1{
+.Info h1{
   font-size: 48px;
 }
 img{
@@ -83,7 +83,7 @@ img{
   height: auto;
 }
 
-h2{
+.Info h2{
   font-size: 28px;
   margin-top: 0px;
 }
@@ -97,6 +97,10 @@ h2{
 .Arrow-rotate{
   width: 12px;
   transform: rotate(220deg);
+}
+.Arrow-rotate-up{
+  width: 12px;
+  transform: rotate(180deg);
 }
 .Info-contents a{
   color: #2F37FF;
@@ -117,13 +121,19 @@ h2{
   margin-top: 10vh;
   margin-bottom: 5vh;
 }
-hr{
+.MainContainer-nvr hr{
   width: 80%;
   margin-bottom: 100px;
 }
-
+.RecycleCardContainer{
+  display: flex;
+  flex-direction: row;
+}
+.RecycleCardItem{
+  margin-right: 10px;
+}
 @media (min-width: 750px){
-.MainContainer {
+.MainContainer-nvr {
   }
   .Info{
     flex-direction: row;
@@ -137,7 +147,7 @@ hr{
   .Info-contents h1{
     font-size: 48px;
   }
-  img{
+  .Img-box img{
     width: 100%;
     height: auto;
   }
@@ -147,12 +157,11 @@ hr{
   }
   .Nvr-footer-container{
     display: flex;
-    align-items: center;
     flex-direction: column;
   }
 }
 
 @media (min-width: 600px){
-.MainContainer {
+.MainContainer-nvr {
   }
 }

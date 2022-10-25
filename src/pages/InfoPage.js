@@ -15,7 +15,7 @@ export default function InfoPage() {
         {/* <div className="NVRHeader">
           <NVRHeader />
         </div> */}
-        <div className="MainContainer">
+        <div className="MainContainer-nvr">
           <Info1 />
           <hr />
           <Info2 />
