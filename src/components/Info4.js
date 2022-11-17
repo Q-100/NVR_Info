@@ -16,7 +16,7 @@ export default function Info4(props) {
         </p>
       </div>
       <div className="Img-box">
-        <img src="img/ScheduleImg.png" alt="" />
+        <img src="img/schedule_img.png" alt="" />
       </div>
     </div>
   );

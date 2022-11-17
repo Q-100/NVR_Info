@@ -4,6 +4,7 @@ import Info2 from "../components/Info2";
 import Info3 from "../components/Info3";
 import Info4 from "../components/Info4";
 import Info5 from "../components/Info5";
+import InfoMain from "../components/InfoMain";
 import NVRHeader from "../components/NvrHeader";
 import NvrFooter from "../components/NvrFootet";
 import "../App.css";
@@ -16,7 +17,8 @@ export default function InfoPage() {
           <NVRHeader />
         </div> */}
         <div className="MainContainer-nvr">
-          <Info1 />
+          <InfoMain />
+          {/* <Info1 /> */}
           <hr />
           <Info2 />
           <Info3 />

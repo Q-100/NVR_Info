@@ -5,29 +5,38 @@ export default function Info2() {
   return (
     <div className="Info">
       <div className="Info-contents">
-        <p className="Sub-title">재활용</p>
-        <h2>병뚜껑을 재활용한 명함</h2>
+        <h2>| ABOUT NVR SMART CARD</h2>
         <p>
-          그거 아시나요? 대부분의 명함은 코팅이 되어있어 종이로 재활용이
-          불가능합니다. 병뚜껑을 재활용하여 만든 명함을 사용함으로써 지구
-          환경에도 도움을 줄 수 있습니다.
+          일반 명함과는 다른 스마트 명함 한 장으로 상대방에게 <br /> 자신을
+          특별하게 소개하세요.
         </p>
-        <a
-          onClick={() => {
-            setVisible(!visible);
-          }}
-        >
-          재활용 명함 제작 과정{" "}
-          {visible ? (
-            <img src="img/Arrow 3.png" alt="" className="Arrow-rotate-up" />
-          ) : (
-            <img src="img/Arrow 3.png" alt="" className="Arrow" />
-          )}
+        <ul>
+          <li>
+            <p>
+              사람을 만날때마다 소모되는 명함과는 다르게 스마트 명함 한장을
+              스마트폰에 대는것만으로도 자신을 특별하게 소개할 수 있습니다.
+            </p>
+          </li>
+          <li>
+            <p>
+              스마트 명함은 일반 명함보다 많은 정보 제공이 가능하며 버튼
+              하나만으로 연락처를 저장할 수 있습니다.
+            </p>
+          </li>
+          <li>
+            <p>
+              스마트 명함 내 로고나 자신을 소개 할 수 있는 이미지, 정보, 동영상
+              등을 커스텀 할 수 있습니다.
+            </p>
+          </li>
+        </ul>
+        <a href="">
+          NFC 명함 등록하기{" "}
+          <img src="img/Arrow 3.png" alt="" className="Arrow-rotate" />
         </a>
-        {visible && <RecycleCard />}
       </div>
       <div className="Img-box">
-        <img src="img/recycle img1.jpeg" alt="" />
+        <img src="img/IphoneImg.png " alt="" />
       </div>
     </div>
   );
