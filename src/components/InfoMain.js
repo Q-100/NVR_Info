@@ -4,7 +4,7 @@ export default function InfoMain(props) {
   const title = props.title;
   const content = props.content;
   return (
-    <div className="Info Main">
+    <div className="Info Main Info-reverse">
       <div className="Info-contents ">
         <p className="Font-up">주머니 속 명함 한 장으로 세상을 구하세요. </p>
         <p>

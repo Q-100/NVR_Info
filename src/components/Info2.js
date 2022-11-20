@@ -35,7 +35,7 @@ export default function Info2() {
           <img src="img/Arrow 3.png" alt="" className="Arrow-rotate" />
         </a>
       </div>
-      <div className="Img-box">
+      <div className="Img-box Img-box-main">
         <img src="img/IphoneImg.png " alt="" />
       </div>
     </div>

@@ -5,7 +5,7 @@
   margin-bottom: 5%;
 }
 .NVRHeader img{
-  width: 200px;
+  width: 140px;
 }
 .MainContainer-nvr{
   display: flex;
@@ -65,12 +65,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 50px;
+  margin-bottom: 100px;
   flex-direction: column-reverse; 
 }
-.Main{
-  background-color: #EEEEEE;
-}
+
 .Font-up{
   font-size: 50px;
   font-weight: bold;
@@ -81,7 +79,12 @@
 .Info-contents{
   width: 90vw;
   font-weight:600;
-  margin-bottom: 50px;
+  margin-bottom: 0px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.mt-30{
+  margin-top: 30;
 }
 .Info h1{
   font-size: 48px;
@@ -151,18 +154,36 @@ img{
   align-items: center;
 }
 .Img-box-sns{
-  width: 200px;
+  width: 160px;
+  height: auto;
+}
+.Img-box-main{
+  width: 280px;
+  height: auto;
+}
+.Img-box-Main-img{
+  width: 100vw;
   height: auto;
 }
 .Info-contents h2{
   font-size: 25px;
 }
 .Font-up{
-  font-size: 40px;
+  font-size: 55px;
 }
 
 @media (min-width: 750px){
 .MainContainer-nvr {
+  }
+  .Main{
+    background-color: #EEEEEE;
+  }
+  .NVRHeader{
+    display: flex;
+    justify-content: center;
+  }
+  .NVRHeader img{
+    width: 200px;
   }
   .Info{
     flex-direction: row;
@@ -187,6 +208,10 @@ img{
     width: 400px;
     margin: 50px;
   }
+  .Img-box-main{
+    width: 320px;
+    height: auto;
+  }
   .Img-box-sns{
     width: 200px;
     height: auto;
@@ -205,6 +230,10 @@ img{
     display: flex;
     flex-direction: column;
   }
+  .Font-up{
+    font-size: 40px;
+  }
+  
 }
 
 @media (min-width: 600px){
